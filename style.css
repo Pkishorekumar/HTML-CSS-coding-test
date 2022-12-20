@@ -1,0 +1,204 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(81, 211, 243),rgb(251, 231, 156));
+    
+    height: 46em;
+}
+h2{
+    color: white;
+    margin-left: 15px;
+}
+.one{
+    background-color: black;
+    display: flex;
+   
+}
+.one-1{
+    margin-left: 1150px;
+   
+}
+button{
+    padding: 9px 7px 9px 7px;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+button:hover{
+    padding: 9px 7px 9px 7px;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.dpera{
+ text-align: center;
+ font-weight: bolder;
+ font-size: 25px;
+ transition: linear;
+ transition-duration: 0.5s;
+ 
+ 
+}
+.dpera:hover{
+    font-size: 28px;
+}
+.two{
+    background-image: linear-gradient(to top,rgb(248, 194, 203),rgb(98, 98, 245),rgb(248, 194, 203));
+    border: 5px solid;
+    height: 350px;
+    border-radius: 25px;
+    margin: 0px 10px 0px 10px;
+}
+.two-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    animation-name: two;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes two {
+    100%{
+        transform: translateY(25px);
+    }
+ }
+img{
+    width: 350px;
+    height: 170px;
+}
+.itwo{
+    width: 350px;
+    height: 170px;
+}
+.imgp-1{
+    margin-left: 5px;
+}
+.imgp-2{
+    margin-left: 130px;
+}
+.imgp-3{
+    margin-left: 120px;
+}
+.sline{
+    margin-left: 600px;
+    font-size: 25px;
+}
+.three{
+    background-color: beige;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+@media screen and (min-width:550px) and (max-width:850px) {
+ .one-1{
+    margin-left: 380px;
+ }
+ img{
+    width: 230px;
+    margin: 0px;
+ }
+ .itwo{
+    width: 280px;
+ }
+ .imgp-1{
+    margin-left: 0px;
+ }
+ .imgp-2{
+    margin-left: 55px;
+ }
+ .imgp-3{
+    margin-left: 60px;
+ }
+ .two-1{
+    margin-top: 50px;
+    animation-name: two;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+ }
+ @keyframes two {
+    100%{
+        transform: translateY(25px);
+    }
+ }
+ .sline{
+    margin-left: 200px;
+    font-size: 25px;
+}
+.three{
+    background-color: beige;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    padding: 9px 7px 9px 7px;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+button:hover{
+    padding: 9px 7px 9px 7px;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-color: blue;
+}
+}
+@media screen and (max-width:480px) {
+    body{
+        background-size: cover;
+    }
+    .one{
+        width: 100%;
+    } 
+    .one-1{
+        display: none;
+     }
+     .two-1{
+        flex-direction: column;
+        margin-left: 50px;
+        animation-name: two;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+
+     }
+
+     @keyframes two {
+        100%{
+            transform: translateY(25px);
+        }
+     }
+     .sline{
+        margin-left: 10px;
+     }
+     img{
+        width: 300px;
+     }
+     .two{
+        width: 400px;
+        height: 850px;
+        margin-left: 0px;
+        
+     }
+     .itwo{
+        width: 300px;
+     }
+     .three{
+        background-color: beige;
+        font-weight: bolder;
+        font-size: 25px;
+        padding: 10px 10px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
